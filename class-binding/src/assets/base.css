@@ -1,0 +1,49 @@
+/* colors */
+:root {
+  --themecolor: #B5C2BB;
+  --secondcolor: #636363;
+  --thirdcolor: #43544C;
+  --forthcolor: #FCF3ED;
+  --fifthcolor: #A5B4AC;
+
+}
+
+/* typography */
+
+ 
+a {
+  text-decoration: none;
+  color: var(--thirdcolor);
+  transition: 0.4s;
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.logo {
+  color: var(--thirdcolor);
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  
+}
+
+/* buttons */
+#button1 {
+  height: 20px;
+  width: 30px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+
