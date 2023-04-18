@@ -1,8 +1,6 @@
-
-
 <template>
   <main>
-    
+    <div>hej</div>
   </main>
 </template>
 
@@ -14,6 +12,10 @@ const isActive = ref(true)
 
 
 <style scoped> 
+
+main {
+  height: 500px;
+}
 
 
 </style>

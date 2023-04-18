@@ -1,34 +1,66 @@
 /* colors */
 :root {
-  --themecolor: #B5C2BB;
+  --themecolor: #B5C2BB; /*light green color*/
+  --textcolor: #303030;
+  --whitecolor: #f8f8f8;
   --secondcolor: #636363;
-  --thirdcolor: #43544C;
-  --forthcolor: #FCF3ED;
-  --fifthcolor: #A5B4AC;
+  --thirdcolor: #707E78;  /*dark green color*/
+  --forthcolor: #fcf3ed; /*pink color*/
+  --fifthcolor: #A5B4AC; 
 
 }
 
 /* typography */
 
- 
-a {
-  text-decoration: none;
-  color: var(--thirdcolor);
-  transition: 0.4s;
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-}
+  /* links + active and hover to them */
+  a {
+    text-decoration: none;
+    color: var(--textcolor);
+    transition: 0.4s;
+    font-family: "mrs-eaves-roman-all-petite-c", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+  }
 
-.logo {
-  color: var(--thirdcolor);
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  
-}
+    nav a.router-link-exact-active {
+      background-color: var(--forthcolor);
+    }
+
+    nav a.router-link-exact-active:hover {
+      /*background-color: transparent;*/
+    }
+    a:hover {
+      background-color: var(--forthcolor);
+    }
+
+  .logo {
+    color: var(--thirdcolor);
+    font-family: "mrs-eaves-roman-all-petite-c", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px; 
+  }
+
+  h1 {
+    color: var(--textcolor);
+    font-family: "mrs-eaves-roman-all-petite-c", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px; 
+    padding: 10px 0;
+  }
+
+  h2 {
+    color: var(--textcolor);
+    font-family: sheila, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    margin: 30px 0 10px 0;
+    text-align: center;
+
+  }
 
 /* buttons */
 #button1 {
@@ -43,7 +75,7 @@ a {
   box-sizing: border-box;
   margin: 0;
   position: relative;
-  font-weight: normal;
+
 }
 
 

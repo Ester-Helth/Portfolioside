@@ -1,7 +1,12 @@
 <template>
-    <main>
-      ffjfjjfjfjfjn
-    </main>
+    <div class="contact">
+    
+    <h2>Kontakt</h2>
+    </div>
+
+    <div>
+        
+    </div>
   </template>
   
   <script setup>
@@ -10,6 +15,10 @@
   
   
   <style scoped> 
+
+  img {
+    width: 100%;
+  }
   
   
   </style>

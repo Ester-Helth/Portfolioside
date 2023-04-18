@@ -4,18 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   
-  <header>
+  <!--header-->
+  <header id="header">
     <div class="header-content">
-      
       <div class="logo">
-        Ester Helth Møller
+        EHM
       </div>
-      
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/portfolio">Portfolio</RouterLink>
-        <RouterLink to="/contactme">Contact me</RouterLink>
+        <RouterLink to="/">Hjem</RouterLink>
+        <RouterLink to="/about">CV</RouterLink>
+        <RouterLink to="/portfolio">Portfolie</RouterLink>
+        <RouterLink to="/contactme">Kontakt</RouterLink>
       </nav>
     </div>
   </header>
@@ -26,25 +25,35 @@ import { RouterLink, RouterView } from 'vue-router'
     </Transition>
   </RouterView>
 
+  <!--footer-->
   <footer>
     
   </footer>
   
 </template>
 
+<script setup>
+
+
+  
+</script>
+
 <style scoped>
 /*header*/
 
 header {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: var(--fifthcolor);
-  
+  display: flex;
+  justify-content: center;
 }
 
 .header-content {
+  width: 80%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
 }
@@ -59,39 +68,16 @@ header {
   opacity: 0;
 }
 
-
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
 nav {
-  width: 100%;
-  font-size: 12px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  padding: 0;
+  margin: 0;
 }
 
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  border-left: 1px solid var(--textcolor);
 }
 
 nav a:first-of-type {
@@ -101,7 +87,7 @@ nav a:first-of-type {
 @media (min-width: 1024px) {
   header {
     display: flex;
-    place-items: center;
+    place-items: left;
   }
 
   .logo {
