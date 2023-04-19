@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <!--footer-->
   <footer>
-    
+    <p>ester.ooo</p>
   </footer>
   
 </template>
@@ -110,8 +110,8 @@ nav a:first-of-type {
 /*footer*/
 footer {
   width: 100%;
-  height: 120px;
-  background-color: var(--secondcolor);
+  height: 60px;
+  background-color: var(--textcolor);
   
 }
 </style>

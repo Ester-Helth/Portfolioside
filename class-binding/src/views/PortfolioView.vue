@@ -8,7 +8,7 @@
             <h4>{{ item.title }}</h4>
         </RouterLink>
         <p>{{ item.description }}</p>
-        <a :href="item.link" class="alink">LinkedIn</a>
+        <a :href="item.link" class="alink">Se nærmere her</a>
         <img :src="item.image">
      </div>
     </div>

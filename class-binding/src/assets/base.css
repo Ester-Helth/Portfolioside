@@ -57,10 +57,16 @@
     font-family: sheila, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 35px; 
-    margin: 15px 0;
+    font-size: 38px; 
+    margin: 15px 0 25px 0;
     text-align: center;
+  }
 
+  p {
+    color: var(--forthcolor);
+    font-family: "mrs-eaves-roman-all-petite-c", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
 /* buttons */

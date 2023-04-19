@@ -23,7 +23,12 @@
     <!--video CV-->
     <div class="left">
       <h1>Video CV</h1>
-      <a href="https://youtu.be/gTl6BYJTbcc">Link til min video</a>
+      <span>&#x27F6</span>
+      <a href="https://youtu.be/gTl6BYJTbcc" target="_blank">
+        <button>
+          Link til video
+        </button>
+      </a>
     </div>
     
     
@@ -97,7 +102,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 0;
+  margin: 40px 0 70px 0;
 }
 
 iframe {
