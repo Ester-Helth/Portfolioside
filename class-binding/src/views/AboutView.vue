@@ -5,8 +5,10 @@
 
     <!-- CV-->
     <div class="left">
-      <h1>Download mit CV her eller se det online herunder</h1>
+      <h1>Rul gennem mit CV herunder eller download det her</h1>
     
+      <span>&#x27F6</span>
+
       <a href="src/assets/Documents/CV.pdf" download="CV.pdf">
         <button>
           Download CV
@@ -21,7 +23,9 @@
     <!--video CV-->
     <div class="left">
       <h1>Video CV</h1>
+      <a href="https://youtu.be/gTl6BYJTbcc">Link til min video</a>
     </div>
+    
     
     
     
@@ -40,13 +44,18 @@
 .about .left {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.about .left span {
+  font-size: 40px;
 }
 
 /*button*/
 
-.about a {
-  margin: 30px 0;
+.left a {
+text-decoration: none;
 }
 
 button {
@@ -55,30 +64,31 @@ button {
   justify-content: center;
   outline: none;
   cursor: pointer;
-  width: 150px;
+  width: 170px;
   height: 50px;
-  background-image: none;
+  background-color: var(--forthcolor);
   border-radius: 30px;
   border: 1px solid var(--textcolor);
   transition: all 0.2s ease;
   font-family: "mrs-eaves-roman-all-petite-c", serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 20px;
   color: var(--textcolor);
-  margin: 0 30px;
   
 }
 
 button:hover {
-  box-shadow: 0 4px 3px 1px var(--thirdcolor), 0 6px 8px var(--thirdcolor), 0 -4px 4px var(--thirdcolor), 0 -6px 4px #FEFEFE, ;
+  box-shadow: 0px 3px 1px var(--textcolor),7px 6px 8px var(--textcolor), 8px -4px 4px var(--textcolor), 7px -5px 4px var(--whitecolor);
+
 }
 
 button:active {
-  box-shadow: 0 4px 3px 1px #c74343, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  box-shadow: 0 4px 3px 1px var(--textcolor), 0 6px 8px var(--thirdcolor), 0 -4px 4px var(--textcolor), 0 -6px 4px var(--thirdcolor), inset 0 0 4px 3px rgb(194, 194, 194), inset 0 0 50px rgb(209, 209, 209);
 }
 
 button:focus {
-  box-shadow: 0 4px 3px 1px #ae1d1d, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  box-shadow: 0 4px 3px 1px var(--textcolor), 0 6px 8px var(--thirdcolor), 0 -4px 4px var(--textcolor), 0 -6px 4px var(--thirdcolor), inset 0 0 4px 3px rgb(194, 194, 194), inset 0 0 50px rgb(209, 209, 209);
 }
 
 /*CV pdf on page*/
@@ -87,11 +97,14 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 40px 0;
 }
 
 iframe {
-  height: 500px;
-  width: 100%;
+  height: 800px;
+  width: 80%;
 }
+
+/*video CV*/
 
 </style>

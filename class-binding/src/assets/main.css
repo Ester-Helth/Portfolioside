@@ -1,7 +1,9 @@
 @import './base.css';
 
 body {
-  background-color: var(--themecolor);
+  background-color: var(--thirdcolor);
+  padding-top: 100px;
+  font-size: 100%;
 }
 
 

@@ -5,8 +5,8 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   
   <!--header-->
-  <header id="header">
-    <div class="header-content">
+  <header class="header">
+    <div  class="header-content" >
       <div class="logo">
         EHM
       </div>
@@ -19,11 +19,14 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
+
   <RouterView v-slot="{ Component }">
     <Transition name="fade">
       <component :is="Component" />
     </Transition>
   </RouterView>
+
+  
 
   <!--footer-->
   <footer>
@@ -35,18 +38,24 @@ import { RouterLink, RouterView } from 'vue-router'
 <script setup>
 
 
+
   
 </script>
 
 <style scoped>
+  @import url("https://use.typekit.net/bgl2fij.css"); /*adobe fonts*/
+ 
 /*header*/
-
-header {
-  width: 100%;
+.header {
+  width: 100vw;
   height: 100px;
   background-color: var(--fifthcolor);
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  transition: 0.3s;
 }
 
 .header-content {
@@ -56,16 +65,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 0;
-}
-
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
+  padding: 0;
 }
 
 nav {
@@ -84,6 +84,11 @@ nav a:first-of-type {
   border: 0;
 }
 
+/* scroll effect on header */
+
+
+
+
 @media (min-width: 1024px) {
   header {
     display: flex;
@@ -100,16 +105,6 @@ nav a:first-of-type {
     flex-wrap: wrap;
   }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-
-    display: flex;
-  }
 }
 
 /*footer*/
