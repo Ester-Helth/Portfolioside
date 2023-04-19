@@ -20,6 +20,33 @@ const getPortfolio = () => {
             link: 'https://www.google.com', 
             category: 'Video',
             tech: 'Adobe AfterEffect, Premiere'
+        },
+        {
+            id: 3, 
+            title: 'Portfolio 2', 
+            description: 'Bum',
+            image: 'https://picsum.photos/200/300',
+            link: 'https://www.google.com', 
+            category: 'Video',
+            tech: 'Adobe AfterEffect, Premiere'
+        },
+        {
+            id: 4, 
+            title: 'Portfolio 2', 
+            description: 'Bum',
+            image: 'https://picsum.photos/200/300',
+            link: 'https://www.google.com', 
+            category: 'Video',
+            tech: 'Adobe AfterEffect, Premiere'
+        },
+        {
+            id: 5, 
+            title: 'Portfolio 2', 
+            description: 'Bum',
+            image: 'https://picsum.photos/200/300',
+            link: 'https://www.google.com', 
+            category: 'Video',
+            tech: 'Adobe AfterEffect, Premiere'
         }
     ])
 

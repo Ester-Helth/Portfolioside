@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <!--footer-->
   <footer>
-    <p>ester.ooo</p>
+    <p>© 2023 ester.ooo</p>
   </footer>
   
 </template>
@@ -112,6 +112,7 @@ footer {
   width: 100%;
   height: 60px;
   background-color: var(--textcolor);
-  
+  display: flex;
+  align-items: center;
 }
 </style>

@@ -2,13 +2,15 @@
     <div>
     <!--{{ state }}-->
  <div class="portfolio-item-container">
+    <h2>Portfolie</h2>
+
      <div v-for="item in state" :key="item" class="portfolio-item">
         <p class="p-category" :class="item.category">{{ item.category }}</p>
         <RouterLink :to="{ name: 'portfoliodetails', params:{id: item.id}}">
             <h4>{{ item.title }}</h4>
         </RouterLink>
         <p>{{ item.description }}</p>
-        <a :href="item.link" class="alink">Se nærmere her</a>
+        <a :href="item.link" class="alink"></a>
         <img :src="item.image">
      </div>
     </div>
@@ -41,15 +43,16 @@
 
 .portfolio-item-container {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 10%;
 }
 
 .portfolio-item {
-    border: 3px dotted rosybrown;
+    border: 3px dotted var(--forthcolor);
     margin: 10px;
     padding: 15px;
-
 }
+
 
 .alink {
     color: rgb(91, 170, 203);

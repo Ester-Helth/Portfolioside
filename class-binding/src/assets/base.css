@@ -20,7 +20,7 @@
     font-family: "mrs-eaves-roman-all-petite-c", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 24px;
+    font-size: 25px;
   }
 
     nav a.router-link-exact-active {
@@ -49,7 +49,6 @@
     font-weight: 400;
     font-style: normal;
     font-size: 30px; 
-    padding: 10px 0;
   }
 
   h2 {
@@ -58,22 +57,19 @@
     font-weight: 400;
     font-style: normal;
     font-size: 38px; 
-    margin: 15px 0 25px 0;
+    margin: 80px 0 35px 0;
     text-align: center;
   }
 
   p {
     color: var(--forthcolor);
-    font-family: "mrs-eaves-roman-all-petite-c", serif;
+    font-family: mrs-eaves-roman-lining, serif;
     font-weight: 400;
     font-style: normal;
+    margin-left: 10%;
   }
 
 /* buttons */
-#button1 {
-  height: 20px;
-  width: 30px;
-}
 
 
 *,
