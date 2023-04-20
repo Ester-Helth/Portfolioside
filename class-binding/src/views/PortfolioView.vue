@@ -36,28 +36,32 @@
 
 .p-category {
     font-weight: bold;
-    
     padding-left: 8px;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 23px;
     font-family: mrs-eaves-roman-lining, serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .Photoshop {
-    color: rgb(101, 188, 203);
-    border-left: 3px solid rgb(101, 188, 203);
+    color: #a5cbea;
+    border-left: 3px solid #a5cbea;
 }
 
-.Video {
-    color: rgb(140, 186, 158);
-    border-left: 3px solid rgb(140, 186, 158);
+.PremierePro {
+    color: #a5aeea;
+    border-left: 3px solid #a5aeea;
+}
+
+.illustrator {
+    color: rgb(199, 150, 82);
+    border-left: 3px solid rgb(199, 150, 82);
 }
 
 .InDesign {
-    color: rgb(140, 186, 158);
-    border-left: 3px solid rgb(140, 186, 158);
+    color: rgb(209, 118, 113);
+    border-left: 3px solid rgb(209, 118, 113);
 }
 
 .portfolio-item-container {
@@ -70,9 +74,9 @@
     border: 3px dashed var(--forthcolor);
     border-radius: 20px;
     margin: 15px 0;
-    padding: 15px;
+    padding: 35px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
 }
 
 .text-container {
@@ -100,8 +104,10 @@
 
 /*imgages*/
 
+
 img {
     max-height: 280px;
+    max-width: 400px;
     border-radius: 20px;
 }
 

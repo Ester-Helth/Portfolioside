@@ -56,8 +56,7 @@ body{
 
 /* four icons */
 .icons {
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin: 30px 0px;
     display: flex;
     align-items: center;
 }
@@ -76,7 +75,7 @@ transition: 300ms;
 /* visitcard button */
 .contact button {
     height: 60px;
-    margin-top: 70%;
+    margin-top: 10px;
 }
 
 .contact button:hover {

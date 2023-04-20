@@ -15,10 +15,10 @@ const getPortfolio = () => {
         {
             id: 2, 
             title: 'Se mere', 
-            description: 'Bum',
-            image: 'https://picsum.photos/200/300',
+            description: 'Fanø brochure',
+            image: 'src/assets/Documents/Fanø.jpg',
             link: 'https://www.google.com', 
-            category: 'Video',
+            category: 'InDesign',
             tech: 'Adobe AfterEffect, Premiere'
         },
         {
@@ -27,23 +27,23 @@ const getPortfolio = () => {
             description: 'Bum',
             image: 'https://picsum.photos/200/300',
             link: 'https://www.google.com', 
-            category: 'Video',
+            category: 'PremierePro',
             tech: 'Adobe AfterEffect, Premiere'
         },
         {
             id: 4, 
             title: 'Se mere', 
-            description: 'Bum',
-            image: 'https://picsum.photos/200/300',
+            description: 'Bambi studio - opstart af virksomhed for børnemøbler',
+            image: 'src/assets/Documents/bambistudio.png',
             link: 'https://www.google.com', 
-            category: 'Video',
+            category: 'illustrator',
             tech: 'Adobe AfterEffect, Premiere'
         },
         {
             id: 5, 
             title: 'Se mere', 
             description: 'What if event',
-            image: 'https://picsum.photos/200/300',
+            image: 'src/assets/Documents/what-if.png',
             link: 'https://www.google.com', 
             category: 'InDesign',
             tech: 'Adobe AfterEffect, Premiere'
