@@ -1,19 +1,21 @@
 <template>
-    <div>
-        Details
-        test : {{ id }}
+    <div class="details">
        
-        <button @click="$event=> goBack()"> Gå tilbage knap</button>
-
     <div v-if="portfolioDetails" class="portfolio-item">
         <p class="p-category" :class="portfolioDetails.category">{{ portfolioDetails.category }}</p>
-            <h4>{{ portfolioDetails.title }}</h4>
         <p>{{ portfolioDetails.description }}</p>
-        <a :href="portfolioDetails.link" class="alink">LinkedIn</a>
-        <img :src="portfolioDetails.image">
-        <span>{{ portfolioDetails.teammembers }}</span>
-     </div>
-
+        <h4>{{ portfolioDetails.details }}</h4>
+        
+        <a :href="portfolioDetails.link" target="_blank" class="alink">{{ portfolioDetails.linktext }}</a>
+         <!--<span>{{ portfolioDetails.teammembers }}</span>-->
+        <button @click="$event=> goBack()">Gå tilbage</button>
+    </div>
+    <div class="img-container">
+        <img class="img1" :src="portfolioDetails.image">
+        <img :src="portfolioDetails.imagetwo">
+        
+    </div>
+     
     </div>
 </template>
 
@@ -43,49 +45,72 @@ const portfolioDetails = computed (
     }
 )
 
-
-
-
 </script>
 
 <style scoped>
 
+.details{
+    margin: 30px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px dashed var(--forthcolor);
+    border-radius: 20px;
+
+}
 .p-category {
     font-weight: bold;
-    text-transform: uppercase;
     padding-left: 8px;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: mrs-eaves-roman-lining, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-.Web {
-    color: rgb(1, 25, 181);
-    border-left: 3px solid rgb(154, 101, 203);
+.Photoshop {
+    color: #a5cbea;
+    border-left: 3px solid #a5cbea;
 }
 
-.Video {
-    color: rgb(184, 186, 140);
-    border-left: 3px solid rgb(140, 186, 158);
+.PremierePro {
+    color: #a5aeea;
+    border-left: 3px solid #a5aeea;
 }
 
-.portfolio-item-container {
-    display: flex;
-    justify-content: flex-start;
+.illustrator {
+    color: #ffbd6d;
+    border-left: 3px solid #ffbd6d;
+}
+
+.InDesign {
+    color: rgb(220, 146, 142);
+    border-left: 3px solid rgb(220, 146, 142);
 }
 
 .portfolio-item {
-    border: 3px dotted rosybrown;
-    margin: 10px;
-    padding: 15px;
-
+    margin: 40px 35px;
 }
 
-.alink {
-    color: rgb(91, 170, 203);
-    font-weight: bold;
+/*button effects*/
+
+.details button:hover {
+  box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #84938d, inset 0 0 3px 3px #CECFD1;
 }
 
-.alink:hover {
-    color: rgb(203, 91, 177);
+/*imgages*/
+.img-container{
+    margin: 40px 30px;
+}
+
+img {
+    width: 40vw;
+    border-radius: 10px;
+    margin-top: 17px;
+}
+
+.img1 {
+    margin-top: 0;
 }
 
 </style>

@@ -1,6 +1,9 @@
 <template>
   <main>
-    <div>hej</div>
+    
+    <h4>Hej! Og velkommen til </h4>
+
+    <h2>Ester Helth Møller</h2>
   </main>
 </template>
 

@@ -23,9 +23,13 @@
         </div>
 
         <!--images-->
-        <div class="img-container"><img :src="item.image"></div>
-     </div>
+        <div class="img-container">
+            <img :src="item.image">
+        </div>
+
     </div>
+    </div>
+    
  </div> 
 </template>
 
@@ -106,16 +110,13 @@
 
 /*button effects*/
 .text-container button:hover {
-  box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #84938d, inset 0 0 3px 3px #CECFD1;;
-
-}
+  box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #84938d, inset 0 0 3px 3px #CECFD1;
+}                                           
 
 /*imgages*/
-
-
 img {
-    max-height: 280px;
-    max-width: 400px;
+   max-width: 32vw;
+    max-height: 300px;
     border-radius: 20px;
 }
 
