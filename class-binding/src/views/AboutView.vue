@@ -28,7 +28,7 @@
 
     <!--video CV-->
     <div class="left video">
-      <h1>Video CV</h1>
+      <h1>Se mit video CV her</h1>
 
       <!-- svg arrow--> 
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 405.4 21.24">
@@ -71,7 +71,7 @@
 
 /* svg pil*/
 
-svg {
+.about svg {
   margin-right: 25px;
   margin-left: 7px;
   max-width: 680px;

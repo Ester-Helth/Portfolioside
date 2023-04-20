@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="background">
     <!--{{ state }}-->
  <div class="portfolio-item-container">
     <h2>Portfolie</h2>
@@ -55,15 +55,21 @@
 }
 
 .illustrator {
-    color: rgb(199, 150, 82);
-    border-left: 3px solid rgb(199, 150, 82);
+    color: #ffbd6d;
+    border-left: 3px solid #ffbd6d;
 }
 
 .InDesign {
-    color: rgb(209, 118, 113);
-    border-left: 3px solid rgb(209, 118, 113);
+    color: rgb(220, 146, 142);
+    border-left: 3px solid rgb(220, 146, 142);
 }
 
+.background{
+    background-image: url(../assets/Documents/Asset14.svg);
+    background-repeat:repeat-y;
+    background-position-x: -550px;
+
+}
 .portfolio-item-container {
     display: flex;
     flex-direction: column;
@@ -110,6 +116,9 @@ img {
     max-width: 400px;
     border-radius: 20px;
 }
+
+
+  
 
 
 

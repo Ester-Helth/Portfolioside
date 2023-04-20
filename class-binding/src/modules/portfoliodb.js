@@ -24,8 +24,8 @@ const getPortfolio = () => {
         {
             id: 3, 
             title: 'Se mere', 
-            description: 'Bum',
-            image: 'https://picsum.photos/200/300',
+            description: 'Video til Rebranding Esbjerg projekt',
+            image: 'src/assets/Documents/rebranding-esbjerg.jpg',
             link: 'https://www.google.com', 
             category: 'PremierePro',
             tech: 'Adobe AfterEffect, Premiere'
@@ -33,7 +33,7 @@ const getPortfolio = () => {
         {
             id: 4, 
             title: 'Se mere', 
-            description: 'Bambi studio - opstart af virksomhed for børnemøbler',
+            description: 'Bambi Studio logo - opstart af virksomhed for børnemøbler',
             image: 'src/assets/Documents/bambistudio.png',
             link: 'https://www.google.com', 
             category: 'illustrator',
@@ -42,7 +42,7 @@ const getPortfolio = () => {
         {
             id: 5, 
             title: 'Se mere', 
-            description: 'What if event',
+            description: 'What if event - flyers og plakat',
             image: 'src/assets/Documents/what-if.png',
             link: 'https://www.google.com', 
             category: 'InDesign',
