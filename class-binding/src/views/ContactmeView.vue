@@ -76,6 +76,7 @@ transition: 300ms;
 /* visitcard button */
 .contact button {
     height: 60px;
+    margin-top: 70%;
 }
 
 .contact button:hover {
