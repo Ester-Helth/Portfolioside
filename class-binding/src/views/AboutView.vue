@@ -89,39 +89,15 @@ svg {
         }
       }
 
-/*button*/
-
-a {
-text-decoration: none;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  cursor: pointer;
-  width: 170px;
-  height: 50px;
-  background-color: var(--forthcolor);
-  border-radius: 30px;
-  border: 1px solid var(--textcolor);
-  transition: all 0.2s ease;
-  font-family: "mrs-eaves-roman-all-petite-c", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: var(--textcolor);
-  
-}
+/*button hover + focus*/
 
 .about button:hover {
-  box-shadow: 0px 3px 1px var(--textcolor),7px 6px 8px var(--textcolor), 8px -4px 4px var(--textcolor), 7px -5px 4px var(--whitecolor);
+  box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #84938d, inset 0 0 3px 3px #CECFD1;;
 
 }
 
 .about button:focus {
-  box-shadow: 0 4px 3px 1px var(--textcolor), 0 6px 8px var(--thirdcolor), 0 -4px 4px var(--textcolor), 0 -6px 4px var(--thirdcolor), inset 0 0 4px 3px rgb(194, 194, 194), inset 0 0 50px rgb(209, 209, 209);
+  box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #74827d, 0 -6px 4px var(--thirdcolor), inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
 
 

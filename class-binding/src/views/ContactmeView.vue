@@ -80,12 +80,12 @@ transition: 300ms;
 }
 
 .contact button:hover {
-  box-shadow: 0px 0px 1px var(--textcolor),3px 0px 4px var(--textcolor), 1px 0px 4px var(--textcolor), 1px 0px 4px var(--whitecolor);
+  box-shadow: 0 4px 3px 1px #fcf3ed, 0 6px 12px #e7dcd5, 0 -4px 4px #dfd5cf, 0 -6px 4px #fcf3ed, inset 0 0 3px 3px #CECFD1;;
 
 }
 
 .contact button:focus {
-  box-shadow: 0px 0px 1px var(--textcolor), 1px 0px 0px var(--textcolor), 1px 0px 4px var(--textcolor), 0 0px 4px var(--textcolor), inset 0 0 1px 1px var(--textcolor), inset 0 0 50px var(--textcolor);
+  box-shadow: 0 4px 3px 1px #fcf3ed, 0 6px 8px #dcd2cc, 0 -4px 4px #ede3dd, 0 -6px 4px #fcf3ed, inset 0 0 5px 1px #999, inset 0 0 30px rgb(199, 199, 199);;
 }
 
 

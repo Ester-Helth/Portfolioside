@@ -4,17 +4,17 @@ const getPortfolio = () => {
     const state = ref([
         {
             id: 1, 
-            title: 'Portfolio 1', 
-            description: 'Pasta',
-            image: 'https://picsum.photos/200/300',
+            title: 'Se mere', 
+            description: 'Fotografering af Færøerne',
+            image: 'src/assets/Documents/Færøerne.jpg',
             link: 'https://www.google.com', 
-            category: 'Web',
+            category: 'Photoshop',
             tech: 'Vue, Tailwind, Firebase',
             teammembers: ("Rebekka", "Abigail", "Rahab")
         },
         {
             id: 2, 
-            title: 'Portfolio 2', 
+            title: 'Se mere', 
             description: 'Bum',
             image: 'https://picsum.photos/200/300',
             link: 'https://www.google.com', 
@@ -23,7 +23,7 @@ const getPortfolio = () => {
         },
         {
             id: 3, 
-            title: 'Portfolio 2', 
+            title: 'Se mere', 
             description: 'Bum',
             image: 'https://picsum.photos/200/300',
             link: 'https://www.google.com', 
@@ -32,7 +32,7 @@ const getPortfolio = () => {
         },
         {
             id: 4, 
-            title: 'Portfolio 2', 
+            title: 'Se mere', 
             description: 'Bum',
             image: 'https://picsum.photos/200/300',
             link: 'https://www.google.com', 
@@ -41,11 +41,11 @@ const getPortfolio = () => {
         },
         {
             id: 5, 
-            title: 'Portfolio 2', 
-            description: 'Bum',
+            title: 'Se mere', 
+            description: 'What if event',
             image: 'https://picsum.photos/200/300',
             link: 'https://www.google.com', 
-            category: 'Video',
+            category: 'InDesign',
             tech: 'Adobe AfterEffect, Premiere'
         }
     ])

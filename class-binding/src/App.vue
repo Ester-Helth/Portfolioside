@@ -30,7 +30,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <!--footer-->
   <footer>
-    <p>© 2023 ester.ooo</p>
+    <h3>© 2023 ester.ooo</h3>
   </footer>
   
 </template>

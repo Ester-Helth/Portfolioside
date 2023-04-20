@@ -43,6 +43,7 @@
     font-size: 70px; 
   }
 
+  /* big content text */
   h1 {
     color: var(--textcolor);
     font-family: "mrs-eaves-roman-all-petite-c", serif;
@@ -51,6 +52,17 @@
     font-size: 30px; 
   }
 
+   /* small content text */
+  p {
+    color: var(--forthcolor);
+    font-family: mrs-eaves-roman-lining, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    margin: 10px 0;
+  }
+
+  /* heading on pages */
   h2 {
     color: var(--textcolor);
     font-family: sheila, sans-serif;
@@ -61,16 +73,40 @@
     text-align: center;
   }
 
-  p {
+  /* footer text */
+  h3 {
     color: var(--forthcolor);
     font-family: mrs-eaves-roman-lining, serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 10%;
+    font-size: 15px;
   }
 
 /* buttons */
+a {
+  text-decoration: none;
+  }
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  background-image: linear-gradient(to top, #e7e7e7 0%, var(--whitecolor) 80%, #FDFDFD 100%);
+  
+  border-radius: 30px;
+  border: 1px solid var(--textcolor);
+  transition: all 0.2s ease;
+  font-family: "mrs-eaves-roman-all-petite-c", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: var(--textcolor);
+}
 
 *,
 *::before,
