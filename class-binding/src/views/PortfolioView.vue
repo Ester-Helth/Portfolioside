@@ -1,8 +1,10 @@
 <template>
-    <div class="background">
+    <div>
+
     <!--{{ state }}-->
  <div class="portfolio-item-container">
     <h2>Portfolie</h2>
+
 
      <div v-for="item in state" :key="item" class="portfolio-item">
         
@@ -67,7 +69,7 @@
 .background{
     background-image: url(../assets/Documents/Asset14.svg);
     background-repeat:repeat-y;
-    background-position-x: -550px;
+    background-position-x: -950px;
 
 }
 .portfolio-item-container {
@@ -116,10 +118,5 @@ img {
     max-width: 400px;
     border-radius: 20px;
 }
-
-
-  
-
-
 
 </style>
