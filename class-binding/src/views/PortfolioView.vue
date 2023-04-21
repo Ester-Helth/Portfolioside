@@ -36,6 +36,7 @@
 <script setup>
     import portfoliodb from '../modules/portfoliodb'
     const { state } = portfoliodb()
+
 </script>
 
 <style scoped>
@@ -73,7 +74,7 @@
 .portfolio-item-container {
     display: flex;
     flex-direction: column;
-    margin: 0 10% 0 30%;
+    margin: 0 10% 50px 30%;
 }
 
 .portfolio-item {
