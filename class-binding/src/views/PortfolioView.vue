@@ -1,6 +1,5 @@
 <template>
     <div>
-
     <!--{{ state }}-->
  <div class="portfolio-item-container">
     <h2>Portfolie</h2>

@@ -6,7 +6,7 @@ const getPortfolio = () => {
             id: 1, 
             title: 'Se mere', 
             description: 'Fotografering af Færøerne',
-            image: '../src/assets/Documents/Færøerne.jpg',
+            image: '../dist/assets/Documents/Færøerne.jpg',
             imagetwo: '',
             link: '', 
             linktext: '',
