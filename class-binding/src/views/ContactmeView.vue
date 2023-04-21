@@ -84,10 +84,8 @@ transition: 300ms;
 }
 
 .contact button:focus {
-  box-shadow: 0 4px 3px 1px #fcf3ed, 0 6px 8px #dcd2cc, 0 -4px 4px #ede3dd, 0 -6px 4px #fcf3ed, inset 0 0 5px 1px #999, inset 0 0 30px rgb(199, 199, 199);;
+  box-shadow: 0 4px 3px 1px #fcf3ed, 0 6px 8px #dcd2cc, 0 -4px 4px #ede3dd, 0 -6px 4px #fcf3ed, inset 0 0 5px 1px #999, inset 0 0 30px rgb(199, 199, 199);
 }
 
-
-  
   
   </style>
