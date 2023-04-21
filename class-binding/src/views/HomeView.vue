@@ -7,7 +7,7 @@
       <h6>Og velkommen til min portfoliohjemmeside!</h6>
       <br>
       <br>
-      <h6>Jeg hedder Ester og er multimediedesignstuderende på 2. semester på EASV i Esbjerg <br> Her på siden har jeg bl.a. samlet mine favorit projekter, som jeg har arbejdet med indtil nu. <br> Tag et kig omkring!</h6>
+      <h6>Jeg hedder Ester og er multimediedesignstuderende på 2. semester på EASV i Esbjerg. <br> Her på siden har jeg bl.a. samlet mine favorit projekter, som jeg har arbejdet med indtil nu. <br> Tag et kig omkring!</h6>
       <h2>Ester Helth Møller</h2>
     </div>
     <div class="img-container-home">
@@ -84,7 +84,6 @@ main {
 
 .img-container-home{
   position: relative;
-
 }
 
 .textcircle{
@@ -113,6 +112,31 @@ main {
   }
   main .cls-1 {
           fill: #fdf4ed;
+        }
+
+        @media only screen and (max-width: 1000px){
+          
+          main {
+            height: 750px;
+            margin: 100px 10%;
+          }
+          .first-row-container {
+            display: flex;
+            flex-direction: column;
+          }
+
+          main svg {
+          display: none;
+          }
+
+          .textcircle{
+          position: absolute;
+          right: 0;
+          top: 30px;
+          width: 30vw;
+          z-index: 1000;
+          animation: spinningcircle 40s linear infinite;
+}
         }
 
 </style>

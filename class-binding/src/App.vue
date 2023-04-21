@@ -11,10 +11,10 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/">EHM</RouterLink>
       </div>
       <nav>
-        <RouterLink to="/">Hjem</RouterLink>
-        <RouterLink to="/about">CV</RouterLink>
-        <RouterLink to="/portfolio">Portfolie</RouterLink>
-        <RouterLink to="/contactme">Kontakt</RouterLink>
+        <RouterLink to="/"><span>Hjem</span></RouterLink>
+        <RouterLink to="/about"><span>CV</span></RouterLink>
+        <RouterLink to="/portfolio"><span>Portfolie</span></RouterLink>
+        <RouterLink to="/contactme"><span>Kontakt</span></RouterLink>
       </nav>
     </div>
   </header>
@@ -56,7 +56,7 @@ import { RouterLink, RouterView } from 'vue-router'
   z-index: 2000;
   top: 0;
   transition: 0.3s;
-  
+  box-shadow: 2px 2px 20px var(--textcolor);
 }
 
 .header-content {
@@ -75,15 +75,6 @@ nav {
   margin: 0;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--textcolor);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
 
 /* scroll effect on header */
 
