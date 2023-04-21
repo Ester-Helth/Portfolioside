@@ -68,7 +68,7 @@ const isActive = ref(true)
 <style scoped> 
 
 main {
-  height: 550px;
+  height: 650px;
   margin: 100px 10%;
 }
 
@@ -117,7 +117,7 @@ main {
         @media only screen and (max-width: 1000px){
           
           main {
-            height: 750px;
+            height: 850px;
             margin: 100px 10%;
           }
           .first-row-container {
@@ -133,7 +133,7 @@ main {
           position: absolute;
           right: 0;
           top: 30px;
-          width: 30vw;
+          width: 40vw;
           z-index: 1000;
           animation: spinningcircle 40s linear infinite;
 }

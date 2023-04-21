@@ -23,7 +23,7 @@
     </div>
     
     <div class="center">
-      <iframe src="src/assets/Documents/CV.pdf#toolbar=0&zoom=120"  frameborder="0"></iframe>
+      <iframe src="https://firebasestorage.googleapis.com/v0/b/portfolio-ester-b03a9.appspot.com/o/CV.pdf?alt=media&token=2666624c-be37-49c2-8a95-3b43536955e9#toolbar=0&zoom=120"  frameborder="0"></iframe>
     </div>
 
     <!--video CV-->
