@@ -76,7 +76,7 @@
   margin-left: 7px;
   max-width: 680px;
 }
-.cls-1 {
+.about .cls-1 {
         fill: #303030;
       }
 
