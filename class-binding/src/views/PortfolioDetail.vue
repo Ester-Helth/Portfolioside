@@ -130,7 +130,6 @@ img {
     width: 60vw;
     border-radius: 10px;
     margin-top: 17px;
-    
 }
 }
 
