@@ -22,7 +22,7 @@
         </div>
 
         <!-- visitcard button--> 
-        <a href="src/assets/Documents/Visitkort.pdf" download="Visitkort.pdf">
+        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-ester-b03a9.appspot.com/o/Visitkort.pdf?alt=media&token=53b29f56-deda-4478-8e6c-060061ea31f4" target="_blank">
             <button>
             Download visitkort
             </button>

@@ -49,7 +49,7 @@ const portfolioDetails = computed (
 <style scoped>
 
 .details{
-    margin: 30px 10%;
+    margin: 30px 10% 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
