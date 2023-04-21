@@ -13,7 +13,6 @@
     <div class="img-container">
         <img class="img1" :src="portfolioDetails.image">
         <img :src="portfolioDetails.imagetwo">
-        
     </div>
      
     </div>
@@ -94,6 +93,9 @@ const portfolioDetails = computed (
 
 /*button effects*/
 
+.details button {
+    margin-top: 30px;
+}
 .details button:hover {
   box-shadow: 0 4px 3px 1px #809089, 0 6px 8px #66736e, 0 -4px 4px #5b6863, 0 -6px 4px #84938d, inset 0 0 3px 3px #CECFD1;
 }

@@ -53,9 +53,10 @@ import { RouterLink, RouterView } from 'vue-router'
   display: flex;
   justify-content: center;
   position: fixed;
-  z-index: 200;
+  z-index: 2000;
   top: 0;
   transition: 0.3s;
+  
 }
 
 .header-content {

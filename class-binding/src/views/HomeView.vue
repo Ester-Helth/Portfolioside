@@ -7,11 +7,11 @@
       <h6>Og velkommen til min portfoliohjemmeside!</h6>
       <br>
       <br>
-      <br>
       <h6>Jeg hedder Ester og er multimediedesignstuderende på 2. semester på EASV i Esbjerg <br> Her på siden har jeg bl.a. samlet mine favorit projekter, som jeg har arbejdet med indtil nu. <br> Tag et kig omkring!</h6>
-      <div><h2>Ester Helth Møller</h2></div>
+      <h2>Ester Helth Møller</h2>
     </div>
-    <div>
+    <div class="img-container-home">
+      <img class="textcircle" src="../assets/Documents/textcircle.png" alt="">
       <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 478.78 722.51">
         <path class="cls-1" d="m310.8,46.43l7.25,1.32-5.99-4.63c-1.61-1.24-3.24-2.46-4.87-3.66l-.38-.28-.45-.09C269.19,31.95,223.95,18.85,171.86.16l-.45-.16-.46.06c-1.73.23-3.45.52-5.17.85l-6.5,1.26,6.51,2.36c56.76,20.59,105.55,34.69,145,41.9Z"/>
         <path class="cls-1" d="m337.57,70.2l5.84,1.38-4.24-4.45c-1.1-1.16-2.25-2.29-3.43-3.42l-.42-.4-.55-.13c-51.87-12.32-117.5-30.38-195.04-53.66l-.69-.21-.62.28c-1.13.51-2.27,1.05-3.39,1.62l-4.17,2.08,4.73,1.42c80.95,24.33,148.9,43,201.97,55.49Z"/>
@@ -69,7 +69,7 @@ const isActive = ref(true)
 
 main {
   height: 550px;
-  margin: 80px 10%;
+  margin: 100px 10%;
 }
 
 /*first row on page */
@@ -82,12 +82,34 @@ main {
   margin-right: 10%;
 }
 
+.img-container-home{
+  position: relative;
+
+}
+
+.textcircle{
+  position: absolute;
+  right: -50px;
+  top: -20px;
+  width: 18vw;
+  z-index: 1000;
+  animation: spinningcircle 40s linear infinite;
+}
+
+@keyframes spinningcircle {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 
 
   /*svg fingerprint */
   main svg {
-    height: 500px;
     rotate: 18deg;
+    width: 30vw;
   }
   main .cls-1 {
           fill: #fdf4ed;

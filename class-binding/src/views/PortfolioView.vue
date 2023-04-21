@@ -29,7 +29,7 @@
 
     </div>
     </div>
-    
+
  </div> 
 </template>
 
@@ -70,12 +70,6 @@
     border-left: 3px solid rgb(220, 146, 142);
 }
 
-.background{
-    background-image: url(../assets/Documents/Asset14.svg);
-    background-repeat:repeat-y;
-    background-position-x: -950px;
-
-}
 .portfolio-item-container {
     display: flex;
     flex-direction: column;
@@ -118,6 +112,46 @@ img {
    max-width: 32vw;
     max-height: 300px;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .portfolio-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+    img {
+    max-width: 40vw;
+    max-height: 400px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
+
+    .text-container button {
+    margin-top: 15px;
+    }  
+}
+
+@media only screen and (max-width: 650px){
+    .portfolio-item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 60vw;
+    max-height: 400px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    }
 }
 
 </style>
