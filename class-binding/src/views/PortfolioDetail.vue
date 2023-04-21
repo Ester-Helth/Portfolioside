@@ -115,4 +115,23 @@ img {
     margin-top: 0;
 }
 
+@media only screen and (max-width: 1000px){
+    .details {
+    display: flex;
+    flex-direction: column;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 60vw;
+    border-radius: 10px;
+    margin-top: 17px;
+    
+}
+}
+
 </style>
