@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
 </script>
 
 <template>
@@ -37,11 +36,9 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <script setup>
-
-
-
   
 </script>
+
 
 <style scoped>
   @import url("https://use.typekit.net/bgl2fij.css"); /*adobe fonts*/
