@@ -92,7 +92,7 @@ main {
   top: -20px;
   width: 18vw;
   z-index: 1000;
-  animation: spinningcircle 40s linear infinite;
+  animation: spinningcircle 34s linear infinite;
 }
 
 @keyframes spinningcircle {
@@ -125,17 +125,19 @@ main {
             flex-direction: column;
           }
 
-          main svg {
-          display: none;
+          .img-container-home{
+          display: flex;
+          justify-content: end;
+          margin-top: -30px;
+          margin-right: 10px;
           }
 
           .textcircle{
           position: absolute;
-          right: 0;
-          top: 30px;
-          width: 40vw;
-          z-index: 1000;
-          animation: spinningcircle 40s linear infinite;
+          width: 23vw;
+          right: -30px;
+          top: -10px;
+         
 }
         }
 

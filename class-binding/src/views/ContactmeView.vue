@@ -7,7 +7,7 @@
 
         <!-- the four icons--> 
         <div class="icons">
-        <a href="https://www.linkedin.com/in/ester-helth-m%C3%B8ller/" target="_blank">
+        <a href="https://www.linkedin.com/in/ester-helth/" target="_blank">
             <img src="../assets/Documents/linkedin.png" alt="">
         </a>
         <a href="mailto:ester22@live.dk" target="_blank">
@@ -46,6 +46,15 @@ body{
     width: 100%;
     top: 0;
     padding: 0;
+}
+
+@media (max-width: 760px) {
+    body{
+        background-size: 1000px;  
+        background-position-y: 64px;
+        background-position-x: -150px;
+        height: 730px;
+    }
 }
 
 .contact {

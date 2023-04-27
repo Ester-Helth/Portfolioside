@@ -68,8 +68,24 @@
 
   .alink:hover {
     color: var(--forthcolor);
-
   }
+
+  @media (max-width: 650px) {
+    nav a {
+      font-size: 20px;
+    }
+    nav a span {
+      padding: 0 0.5rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    nav a span {
+      padding: 0 0.2rem;
+    }
+  }
+
+  
  
   /* big content text */
   h1 {
