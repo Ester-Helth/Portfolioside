@@ -7,7 +7,7 @@
       <h6>Og velkommen til min portfoliohjemmeside!</h6>
       <br>
       <br>
-      <h6>Jeg hedder Ester og er multimediedesignstuderende på 2. semester på EASV i Esbjerg. <br> Her på siden har jeg bl.a. samlet mine favorit projekter, som jeg har arbejdet med indtil nu. <br> Tag et kig omkring!</h6>
+      <h6>Jeg hedder Ester og er multimediedesignstuderende på 3. semester på EASV i Esbjerg. <br> Her på siden har jeg bl.a. samlet mine favoritprojekter, jeg har arbejdet med indtil nu. <br> Tag et kig omkring!</h6>
       <h2>Ester Helth Møller</h2>
     </div>
     <div class="img-container-home">
